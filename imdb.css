@@ -1,0 +1,266 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.Header {
+    background: black;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#headerOptions {
+    width: auto;
+    display: inline;
+    border: gainsboro;
+}
+#imdbPic {
+    display: inline;
+    margin: 0%;
+    height: 200;
+    width: 140;
+  }
+#options {
+  width: 150px;
+  font-size: 18px;
+  padding: 5px 12px;
+  position: absolute;
+  top: 20px;
+  left: 732px;
+}
+#searchBar {
+    width: 500px;
+    border: 0%;
+    padding: 5px 12px;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    left: 205px;
+}
+#search {
+    background-color: yellow;
+    border: 1px solid black; /* Added border style and size */
+    color: yellow;
+    padding: 5px 12px;
+    position: absolute;
+    top: 19px;
+    left: 910px;
+    border-radius: 5px; /* Added border-radius for rounded corners */
+    cursor: pointer; /* Optional: Add a pointer cursor on hover */
+
+}
+
+#search:active {
+    background-color: #b8860b; /* Change the background color when the button is clicked */
+    color: white; /* Change the text color when the button is clicked */
+}
+
+#login {
+    width: 150px;
+    background-color: yellow;
+    border-radius: 5px 5px 5px;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 16px;
+    position: absolute;
+    top: 80px;
+    left: 88%; 
+    transform: translateX(-10%);
+  }
+
+#login:hover {
+    background-color: black;
+    color: #b8860b;
+}
+
+
+
+#categoriesLink {
+    text-decoration: none; /* Remove default underline */
+    color: white; /* Set text color to white */
+    display: inline-block; /* Make sure the borders don't collapse */
+    font-size: 21px;
+    border-right:1px solid #5b5a5a; /* Optional: Add rounded corners */
+    padding: 20px 10px; /* Add padding for better aesthetics */
+    letter-spacing: 0.7px;
+
+}
+
+
+#categoriesLink:nth-child(3) {
+    border-left: 1px solid #5b5a5a;
+
+}
+
+#categoriesLink :hover {
+    transition-duration: 0.1s;
+    color: rgb(232, 144, 12);
+    background-color: #111;
+}
+
+main {
+}
+.all {
+    display: flex;
+    background:rgb(54, 54, 54);
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+
+}
+  
+.links {
+    flex: 1;
+    background: lightgray;
+    min-width: 300px; /* Adjust as needed */
+  }
+  
+.media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+.movieDetiles {
+    background-color: pink;
+    height: 300px;
+    flex: 2;
+  }
+
+.left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background: rgb(52, 51, 51);
+}
+  
+
+#movieName {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+
+#movieName b {
+    font-size: 18px;
+    color: rgb(176, 174, 174);
+    vertical-align: top;
+
+}
+#movieName c {
+    font-size: 15px;
+    color: rgb(188, 184, 184);
+    vertical-align: middle;
+
+
+
+}
+#rateNum {
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(250, 250, 249);
+    position: absolute;
+    top: 160px;
+    left: 660px;  
+}
+#starIcon {
+    font-size: 60px; /* Adjust the font size for a larger star */
+    color: gold; /* Set the color of the star */
+    position: absolute;
+    top: 150px;
+    left: 610px;;
+
+}
+
+#RATE {
+    width: 150px;
+    background-color:gold;
+    border: none; /* Remove border */
+
+    border-radius: 70px 20px 70px;
+    color:black;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 165px;
+    left: 55%; 
+    
+}
+#RATE:hover {
+    background-color: black;
+    color: #b8860b;
+
+}
+
+.right {
+  flex: 1;
+  background: #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 21px;
+  border-radius:100px 100px 100px 100px;
+  margin-left: 0.1px;
+  height: 950px;
+  margin-top: 10px;
+  font-family: cursive;
+  text-align:center;
+}
+h1 {
+    color: #b8860b;
+    font-size: 50px;
+    margin-top: 0px;
+ /**/   font-family: fantasy;
+
+  }
+  #asideLink {
+    color: #b8860b;
+    text-align: right;
+    font-size: 30px;
+    --margin-left:2px;
+  }
+  
+  #asideData{
+      --margin-left:3px;
+      color: #cdcccb;
+  }
+  a
+  .moreInfo {
+    background: rgb(236, 232, 232);
+
+  }
+  #moreDet {
+    color: #fcbf24;
+    font-size: 38px;
+    font-family: cursive;
+    text-decoration: none; /* Remove default underline */
+
+
+  }
+  #bottomText {
+    color: #faf8f7;
+    font-size: 25px;
+    font-family: cursive;
+  }
+  
+  #addToWish {
+    background-color: yellow;
+    border-radius: 5px 5px 5px;
+    color: black;
+    width: 300px;
+    height: 40px;
+    transition-duration: 0.4s;
+    border: gold;
+    position: relative;
+    font-family: impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-size: 25px;
+  }
+  
+  #addToWish:hover {
+    background-color: black;
+    color: #b8860b;
+  }
